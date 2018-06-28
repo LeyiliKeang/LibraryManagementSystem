@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="groupwork.ui.frame.MainFrame">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1373" height="732"/>
+    </constraints>
+    <properties>
+      <maximumSize width="1200" height="732"/>
+      <minimumSize width="1200" height="732"/>
+      <preferredSize width="1200" height="732"/>
+    </properties>
+    <border type="line">
+      <color color="-4473925"/>
+    </border>
+    <children>
+      <grid id="924df" class="groupwork.my.components.MyPanel" binding="maxPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="f4637" class="groupwork.my.components.MyPanel" binding="topPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="1200" height="132"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <enabled value="true"/>
+            </properties>
+            <border type="none">
+              <font/>
+            </border>
+            <children>
+              <toolbar id="1375e" binding="menuToolBar">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <borderPainted value="true"/>
+                  <floatable value="false"/>
+                  <focusable value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none">
+                  <color color="-4473925"/>
+                </border>
+                <children>
+                  <component id="61325" class="groupwork.my.components.MyButton" binding="startButton">
+                    <constraints/>
+                    <properties>
+                      <contentAreaFilled value="false"/>
+                      <focusPainted value="false"/>
+                      <opaque value="false"/>
+                      <text value="开始"/>
+                    </properties>
+                  </component>
+                  <component id="38754" class="groupwork.my.components.MyButton" binding="helpButton">
+                    <constraints/>
+                    <properties>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="false"/>
+                      <focusPainted value="false"/>
+                      <label value="帮助"/>
+                      <text value="帮助"/>
+                    </properties>
+                  </component>
+                </children>
+              </toolbar>
+              <vspacer id="78220">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="49943" class="groupwork.my.components.MyPanel" binding="tabPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <opaque value="true"/>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="2e11d" binding="tabbedPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="1200" height="580"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <opaque value="false"/>
+                  <tabPlacement value="2"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="d0d26" class="groupwork.my.components.MyPanel" binding="bookPane" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="" icon="imgs/tab1.png"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="false"/>
+                      <background color="-986896"/>
+                      <enabled value="false"/>
+                      <maximumSize width="1025" height="600"/>
+                      <minimumSize width="1025" height="500"/>
+                      <opaque value="false"/>
+                      <preferredSize width="1025" height="-1"/>
+                      <visible value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="ce30c" class="groupwork.my.components.MyPanel" binding="myPanel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <autoscrolls value="false"/>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="a2a26" binding="bookTableScrollPane">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="4f52f" class="javax.swing.JTable" binding="bookTable">
+                                <constraints/>
+                                <properties>
+                                  <font size="14"/>
+                                  <opaque value="false"/>
+                                  <rowHeight value="20"/>
+                                  <showVerticalLines value="true"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="e8999" class="groupwork.my.components.MyPanel" binding="myPanel2" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-986896"/>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="c6864" class="groupwork.my.components.MyButton" binding="bookTypeButton">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="图书类型管理"/>
+                            </properties>
+                          </component>
+                          <component id="c68b5" class="groupwork.my.components.MyButton" binding="deleteBookButton">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="删除图书"/>
+                            </properties>
+                          </component>
+                          <component id="36836" class="groupwork.my.components.MyButton" binding="alterBookButton">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="修改图书"/>
+                            </properties>
+                          </component>
+                          <component id="a7346" class="groupwork.my.components.MyButton" binding="addBookButton">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="添加图书"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="8e68a" class="groupwork.my.components.MyPanel" binding="myPanel3" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="10"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="59c57" class="groupwork.my.components.MyButton" binding="bookSearchButton">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="20" height="20"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <visible value="false"/>
+                            </properties>
+                          </component>
+                          <component id="12730" class="javax.swing.JTextField" binding="bookSearchTextField">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="25"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <opaque value="true"/>
+                            </properties>
+                          </component>
+                          <component id="12485" class="javax.swing.JComboBox" binding="bookSearchComboBox">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusable value="false"/>
+                              <model>
+                                <item value="图书编号"/>
+                                <item value="书名"/>
+                                <item value="作者"/>
+                                <item value="出版社"/>
+                                <item value="类型"/>
+                                <item value="入库时间"/>
+                              </model>
+                            </properties>
+                          </component>
+                          <component id="98cb" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="搜索："/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="d6f30" class="javax.swing.JLabel" binding="bookTableCountLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <horizontalAlignment value="10"/>
+                          <text value="一共有0条记录"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="8a2fc" class="groupwork.my.components.MyPanel" binding="readerPane" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="" icon="imgs/tab3.png"/>
+                    </constraints>
+                    <properties>
+                      <maximumSize width="1025" height="600"/>
+                      <minimumSize width="1025" height="500"/>
+                      <opaque value="false"/>
+                      <preferredSize width="1025" height="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="a78db" class="groupwork.my.components.MyPanel" binding="myPanel4" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="bb5d4" binding="readerTableScrollPane">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="ce7b" class="javax.swing.JTable" binding="readerTable">
+                                <constraints/>
+                                <properties>
+                                  <font size="14"/>
+                                  <opaque value="false"/>
+                                  <rowHeight value="20"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="b3d9" class="groupwork.my.components.MyPanel" binding="myPanel5" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="b2a02" class="groupwork.my.components.MyButton" binding="addReaderButton">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="添加读者"/>
+                            </properties>
+                          </component>
+                          <component id="faad5" class="groupwork.my.components.MyButton" binding="deleteReaderButton">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="删除读者"/>
+                            </properties>
+                          </component>
+                          <component id="489a3" class="groupwork.my.components.MyButton" binding="alterReaderButton">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="修改信息"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="a60e1" class="groupwork.my.components.MyPanel" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="10"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="78790" class="groupwork.my.components.MyButton" binding="readerSearchButton">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="20" height="20"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <visible value="false"/>
+                            </properties>
+                          </component>
+                          <component id="82ca4" class="javax.swing.JTextField" binding="readerSearchTextField">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="25"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <component id="6851c" class="javax.swing.JComboBox" binding="readerSearchComboBox">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusable value="false"/>
+                              <model>
+                                <item value="学号"/>
+                                <item value="姓名"/>
+                                <item value="性别"/>
+                                <item value="区队"/>
+                              </model>
+                            </properties>
+                          </component>
+                          <component id="4b3c8" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="搜索："/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="7b32c" class="javax.swing.JLabel" binding="readerTableCountLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <text value="一共有0条记录"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="50793" class="groupwork.my.components.MyPanel" binding="borrowedPane" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="" icon="imgs/tab2.png"/>
+                    </constraints>
+                    <properties>
+                      <maximumSize width="1025" height="600"/>
+                      <minimumSize width="1025" height="500"/>
+                      <opaque value="false"/>
+                      <preferredSize width="1025" height="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="8a89" class="groupwork.my.components.MyPanel" binding="myPanel6" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="9e076" binding="borrowedTableScrollPane">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="80a79" class="javax.swing.JTable" binding="borrowedTable">
+                                <constraints/>
+                                <properties>
+                                  <font size="14"/>
+                                  <opaque value="false"/>
+                                  <rowHeight value="20"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="cf025" class="groupwork.my.components.MyPanel" binding="myPanel7" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="72fb7" class="groupwork.my.components.MyButton" binding="borrowBookButton">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="借书"/>
+                            </properties>
+                          </component>
+                          <component id="df258" class="groupwork.my.components.MyButton" binding="returnBookButton">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="还书"/>
+                            </properties>
+                          </component>
+                          <component id="b16aa" class="groupwork.my.components.MyButton" binding="renewBookButton">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="续借"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="49631" class="groupwork.my.components.MyPanel" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="10"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="6871b" class="groupwork.my.components.MyButton" binding="borrowedSearchButton">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="20" height="20"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <visible value="false"/>
+                            </properties>
+                          </component>
+                          <component id="bf3e6" class="javax.swing.JTextField" binding="borrowedSearchTextField">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="25"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <component id="70b78" class="javax.swing.JComboBox" binding="borrowedSearchComboBox">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusable value="false"/>
+                              <model>
+                                <item value="学号"/>
+                                <item value="图书编号"/>
+                                <item value="姓名"/>
+                                <item value="书名"/>
+                                <item value="借书日期"/>
+                                <item value="应还书日期"/>
+                                <item value="实还书日期"/>
+                                <item value="未还"/>
+                              </model>
+                            </properties>
+                          </component>
+                          <component id="1c945" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="搜索："/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="55067" class="javax.swing.JLabel" binding="borrowedTableCountLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <text value="一共有0条记录"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="aadaa" class="groupwork.my.components.MyPanel" binding="rankPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="" icon="imgs/tab5.png"/>
+                    </constraints>
+                    <properties>
+                      <maximumSize width="1025" height="600"/>
+                      <minimumSize width="1025" height="500"/>
+                      <opaque value="false"/>
+                      <preferredSize width="1025" height="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="4e015" class="groupwork.my.components.MyPanel" binding="myPanel11" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <splitpane id="57202">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <continuousLayout value="true"/>
+                              <dividerLocation value="150"/>
+                              <dividerSize value="5"/>
+                              <enabled value="true"/>
+                              <focusCycleRoot value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <inheritsPopupMenu value="false"/>
+                              <lastDividerLocation value="300"/>
+                              <oneTouchExpandable value="false"/>
+                              <opaque value="false"/>
+                              <orientation value="0"/>
+                              <resizeWeight value="0.0"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <grid id="b4e92" class="groupwork.my.components.MyPanel" binding="myPanel12" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <splitpane position="left"/>
+                                </constraints>
+                                <properties>
+                                  <minimumSize width="34" height="0"/>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="line" title="读者排行榜" title-justification="2">
+                                  <font size="22"/>
+                                  <title-color color="-16777216"/>
+                                  <color color="-986896"/>
+                                </border>
+                                <children>
+                                  <scrollpane id="a10f7" binding="readerBorrowedInfoTableScrollPane">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <opaque value="false"/>
+                                    </properties>
+                                    <border type="none"/>
+                                    <children>
+                                      <component id="217fb" class="javax.swing.JTable" binding="readerBorrowedInfoTable">
+                                        <constraints/>
+                                        <properties>
+                                          <font size="14"/>
+                                          <opaque value="false"/>
+                                          <rowHeight value="20"/>
+                                        </properties>
+                                      </component>
+                                    </children>
+                                  </scrollpane>
+                                  <component id="ae48e" class="javax.swing.JLabel" binding="readerBorrowedInfoTableCountLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <font size="14"/>
+                                      <opaque value="false"/>
+                                      <text value="一共有0条记录"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <grid id="521d0" class="groupwork.my.components.MyPanel" binding="myPanel13" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <splitpane position="right"/>
+                                </constraints>
+                                <properties>
+                                  <minimumSize width="34" height="0"/>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="line" title="图书排行榜" title-justification="2">
+                                  <font size="22"/>
+                                  <title-color color="-16777216"/>
+                                  <color color="-986896"/>
+                                </border>
+                                <children>
+                                  <scrollpane id="695dc" binding="bookBorrowedInfoTableScrollPane">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <opaque value="false"/>
+                                    </properties>
+                                    <border type="none"/>
+                                    <children>
+                                      <component id="dc384" class="javax.swing.JTable" binding="bookBorrowedInfoTable">
+                                        <constraints/>
+                                        <properties>
+                                          <font size="14"/>
+                                          <opaque value="false"/>
+                                          <rowHeight value="20"/>
+                                        </properties>
+                                      </component>
+                                    </children>
+                                  </scrollpane>
+                                  <component id="3d227" class="javax.swing.JLabel" binding="bookBorrowedInfoTableCountLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <font size="14"/>
+                                      <text value="一共有0条记录"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </splitpane>
+                        </children>
+                      </grid>
+                      <grid id="89fde" class="groupwork.my.components.MyPanel" binding="myPanel10" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="15" left="0" bottom="15" right="10"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="92734" class="javax.swing.JTextField" binding="toDateTextField">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="4" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="125" height="25"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <component id="6de46" class="javax.swing.JTextField" binding="fromDateTextField">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="125" height="25"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="d7bb9" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="To"/>
+                            </properties>
+                          </component>
+                          <component id="61269" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="From"/>
+                            </properties>
+                          </component>
+                          <component id="34939" class="groupwork.my.components.MyButton" binding="rankButton">
+                            <constraints>
+                              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="Rank"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="9fb85" class="groupwork.my.components.MyPanel" binding="managerPane" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="" icon="imgs/tab4.png"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="true"/>
+                      <maximumSize width="1025" height="600"/>
+                      <minimumSize width="1025" height="500"/>
+                      <opaque value="false"/>
+                      <preferredSize width="1025" height="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="35e7" class="groupwork.my.components.MyPanel" binding="myPanel8" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <focusCycleRoot value="false"/>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="10cae" binding="managerTableScrollPane">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font/>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="4ed60" class="javax.swing.JTable" binding="managerTable">
+                                <constraints/>
+                                <properties>
+                                  <font size="14"/>
+                                  <opaque value="false"/>
+                                  <rowHeight value="20"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="107ec" class="groupwork.my.components.MyPanel" binding="myPanel9" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="80b82" class="groupwork.my.components.MyButton" binding="addManagerButton">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="添加"/>
+                            </properties>
+                          </component>
+                          <component id="73562" class="groupwork.my.components.MyButton" binding="deleteManagerButton">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="删除"/>
+                            </properties>
+                          </component>
+                          <component id="624ef" class="groupwork.my.components.MyButton" binding="alterManagerButton">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <text value="修改"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="2b45e" class="groupwork.my.components.MyPanel" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="10"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="b7716" class="groupwork.my.components.MyButton" binding="managerSearchButton">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="20" height="20"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <focusPainted value="false"/>
+                              <visible value="false"/>
+                            </properties>
+                          </component>
+                          <component id="4e403" class="javax.swing.JTextField" binding="managerSearchTextField">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="25"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <component id="98fac" class="javax.swing.JComboBox" binding="managerSearchComboBox">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <focusable value="false"/>
+                              <model>
+                                <item value="身份证号"/>
+                                <item value="姓名"/>
+                              </model>
+                            </properties>
+                          </component>
+                          <component id="9e5a5" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="搜索："/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="4b6a6" class="groupwork.my.components.MyPanel" binding="myPanel14" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                          <requestFocusEnabled value="true"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="f63e0" class="groupwork.my.components.MyPanel" binding="clockPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="200" height="200"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="10dc6" class="groupwork.my.components.ClockLabel" binding="clockLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                    <preferred-size width="200" height="200"/>
+                                  </grid>
+                                </constraints>
+                                <properties/>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <component id="f8f27" class="javax.swing.JLabel" binding="managerTableCountLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font size="14"/>
+                          <text value="一共有0条记录"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
